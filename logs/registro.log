@@ -1,0 +1,54 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< org.buk:pruebasQA >--------------------------
+[INFO] Building pruebasQA 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ pruebasQA ---
+[INFO] Deleting D:\spring5\eclipse-workspace\paraSubir\clientesBack_SpringBoot\pruebasQA\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ pruebasQA ---
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ pruebasQA ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug target 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ pruebasQA ---
+[INFO] skip non existing resourceDirectory D:\spring5\eclipse-workspace\paraSubir\clientesBack_SpringBoot\pruebasQA\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ pruebasQA ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 6 source files with javac [debug target 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ pruebasQA ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running test.BuscarProductoTest
+19:57:36.598 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.6.3
+19:57:36.945 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=133 in cache (valid until 20:26:19 23/02/2025 COT)
+19:57:36.946 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome133=133.0.6943.126 in cache (valid until 15:02:11 24/02/2025 COT)
+19:57:36.947 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 133.0.6943.126 (resolved driver for Chrome 133)
+19:57:36.969 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 133.0.6943.126 found in cache
+19:57:36.971 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Jaiver\.cache\selenium\chromedriver\win64\133.0.6943.126\chromedriver.exe
+feb. 23, 2025 7:57:38 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 133
+feb. 23, 2025 7:57:38 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 133.0.6943.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+No se encontró la advertencia de seguridad.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 49.77 s -- in test.BuscarProductoTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  53.932 s
+[INFO] Finished at: 2025-02-23T19:58:26-05:00
+[INFO] ------------------------------------------------------------------------
